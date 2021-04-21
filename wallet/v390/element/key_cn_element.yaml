@@ -1,0 +1,38 @@
+# ----------------- 添加门禁卡 -------------------
+physical_access_card: {textContains: "实体门禁卡", resourceId: "title"}
+online_access_card: {textContains: "线上开通门禁卡", resourceId: "title"}
+manual_access_card: {textContains: "人工录入", resourceId: "title"}
+activate_new_card: {resourceId: "openBtn"}
+add_access_card: {resourceId: "addCardBtn"}
+sense_access_card: {textContains: "NFC感应区", resourceId: "identifyingContent"}
+retry: {resourceId: "identifyingRetryBtn"}
+import_process_title: {textContains: "正在录入", resourceId: "identifyingTitle"}
+create_white_card_process: {resourceId: "createWhiteCardProgress"}
+write_in_now: {resourceId: "writeDataNow"}
+write_in_later: {resourceId: "writeDataDelay"}
+unrecognized_device: {resourceId: "writeDataError"}
+save: {resourceId: "ackBtn"}
+# ----------------- 编辑门禁卡 -------------------
+card_name: {resourceId: "lay_card_name"}
+card_name_editbox: {resourceId: "cardNameEt"}
+display_switch: {resourceId: "csItem"}
+card_cover_style: {resourceId: "lay_card_style"}
+random_cover: {resourceId: "itemImgSelectContent"}
+custom_cover: {resourceId: "iv_add"}
+first_picture: {resourceId: "rl_root", index: "1"}
+save_picture: {resourceId: "nb_crop"}
+save_cover: {resourceId: "select_all"}
+# ----------------- 删除门禁卡 -------------------
+delete_reason_checkbox: {resourceId: "cbDeleteReasonCheck"}
+delete_card_reason: {resourceId: "etRefuseDetail"}
+confirm_delete: {resourceId: "ackBtn"}
+delete_process: {resourceId: "title_template"}
+# ----------------- 使用技巧 -------------------
+card_tips: {resourceId: "lay_card_tips"}
+finish_on_tips_page: {resourceId: "select_all"}
+# ----------------- 迁移门禁卡 -------------------
+access_card_1: {textContains: "门禁卡1",resourceId: "title"}
+move_in_to_this_machine: {resourceId: "btn_migrate_card"}
+moving_in_card: {textContains: "正在迁入卡片",resourceId: "title"}
+carry_out: {resourceId: "btn_finish"}
+

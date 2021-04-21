@@ -1,0 +1,22 @@
+# ----------------- Tab -------------------
+mine_tab: {text: "我的", resourceId: "tab_content_tv"}
+# ----------------- 消息中心入口 -------------------
+message_center: {resourceId: "iv_center_msg"}
+# ----------------- 设置入口 -------------------
+setting: {resourceId: "iv_center_setting"}
+# ----------------- 账号&签到&积分 -------------------
+account_number: {resourceId: "rela_logined"}
+sign_in: {resourceId: "rela_left"}
+close: {resourceId: "close"}
+integration: {textContains: "积分", resourceId: "tv_name"}
+# ----------------- 红包入口 -------------------
+red_envelope: {textContains: "红包", resourceId: "tv_name"}
+# ----------------- 优惠券入口 -------------------
+coupon: {textContains: "优惠券", resourceId: "tv_name"}
+# ----------------- 我的资产 -------------------
+my_assets: {textContains: "我的资产", resourceId: "credit_desc"}
+my_protection: {textContains: "我的保障", resourceId: "credit_desc"}
+my_loan: {textContains: "我的借钱", resourceId: "credit_desc"}
+eye: {resourceId: "iv_eye"}
+change: {text: "零钱"}
+

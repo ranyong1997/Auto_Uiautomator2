@@ -1,0 +1,59 @@
+# ----------------- 欢迎页 -------------------
+acticate_now: {resourceId: "btn_open"}
+# ----------------- 添加银行卡(Native) -------------------
+take_photo: {resourceId: "iv_scan"}
+supported_bank: {resourceId: "llSupportBank"}
+bank_card_number: {resourceId: "etCardBin"}
+next_step: {resourceId: "btn_next_step"}
+username: {right: [{textContains: "姓名", resourceId: "tvName"}, {resourceId: "cetInf"}]}
+identification_number: {right: [{textContains: "身份证", resourceId: "tvName"}, {resourceId: "cetInf"}]}
+mobile_number: {right: [{textContains: "手机号", resourceId: "tvName"}, {resourceId: "cetInf"}]}
+profession: {resourceId: "tvSelectedJob"}
+profession_group: {resourceId: "tv_job_type"}
+profession_item: {resourceId: "checked_TextView"}
+protocol_check_box: {resourceId: "ivAgree"}
+start_verification: {resourceId: "btnStartVerify"}
+face_recognition: {resourceId: "liveness_layout_promptText"}
+verification_code_box: {resourceId: "cetVerifyCode"}
+# ----------------- 零钱首页 -------------------
+recharge: {resourceId: "btn_charge"}
+withdraw: {resourceId: "btn_widthdraw"}
+change_details: {textContains: "明细", resourceId: "tv_title"}
+change_card_package: {textContains: "绑定卡", resourceId: "tv_title"}
+increase_limit: {textContains: "限额", resourceId: "tv_title"}
+# ----------------- 关于零钱 -------------------
+bound_phone_number: {resourceId: "rela_bind_phone_number"}
+change_phone_number: {resourceId: "btn_change"}
+# ----------------- 零钱明细 -------------------
+withdraw_h5: {text: "提现"}
+recharge_h5: {text: "充值"}
+# ----------------- 零钱绑定卡 -------------------
+add_card: {resourceId: "item_add"}
+first_bank_card: {resourceId: "rlDetailRoot"}
+# ----------------- 再次添加银行卡(H5) -------------------
+take_photo_h5: {text: "拍照识别卡号"}
+supported_bank_h5: {text: "支持的银行"}
+bank_card_number_h5: {xpath: "//android.widget.EditText"}
+next_step_h5: {text: "下一步"}
+mobile_number_h5: {xpath: "//android.view.View[4]//android.widget.EditText"}
+cgb_account_agreement: {textContains: "电子账户协议"}
+verification_code_box_h5: {xpath: "//android.widget.EditText"}
+# ----------------- 充值 提现-------------------
+amount: {resourceId: "et_input"}
+recharge_or_withdraw_now: {resourceId: "mBtnNextStep"}
+complete: {resourceId: "btn_complete"}
+bind_card: {text: "零钱绑定卡", resourceId: "tv_title"}
+# ----------------- 提升限额 -------------------
+identify_IDCard: {text: "拍摄身份证"}
+scan_front_process: {textContains: "人像面", resourceId: "idcardscan_layout_verticalTitle"}
+scan_back_process: {textContains: "国徽面", resourceId: "idcardscan_layout_verticalTitle"}
+edit_address: {text: "编辑住址"}
+province_city_district: {textContains: "省市区"}
+address: {xpath: "//android.widget.EditText"}
+save: {resourceId: "action_next"}
+loading: {textContains: "正在处理"}
+confirmed: {textContains: "确认无误"}
+# ----------------- 注销零钱 -------------------
+unbind: {text: "解绑", resourceId: "btn"}
+next: {resourceId: "btn_next"}
+cancel_account_process: {textContains: "正在注销", resourceId: "tv_title"}

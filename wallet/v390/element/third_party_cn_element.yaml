@@ -1,0 +1,3 @@
+service_name: {resourceId: "service_name"}
+quickapp_close: {resourceId: "right_menu_iv"}
+cocoin_exit: {resourceId: "android:id/button1"}

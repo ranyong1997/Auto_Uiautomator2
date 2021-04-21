@@ -1,0 +1,33 @@
+# ----------------- 欢迎页 -------------------
+acticate_now: {resourceId: "btn_open"}
+# ----------------- 添加银行卡 -------------------
+bank_card_number: {resourceId: "etCardBin"}
+next_button: {resourceId: "btn_next_step"}
+mobile_number: {resourceId: "cetPhone"}
+bank_password: {resourceId: "cetPSW"}
+expire_date: {resourceId: "cetExpiredDate"}
+cvn2: {resourceId: "cetCVN2"}
+add_bank_card_process: {textContains: "正在", resourceId: "tvCurrentStatus"}
+verification_code_box: {resourceId: "cetVerifyCode"}
+security_question: {resourceId: "arrow"}
+specific_security_question: {resourceId: "question_tv"}
+security_answer: {resourceId: "answer_et"}
+next_time: {resourceId: "tv_next_talk"}
+# ----------------- 银行卡详情 -------------------
+transaction_record: {text: "交易记录", resourceId: "tv_left"}
+service_hotline: {textContains: "客服热线", resourceId: "tv_left"}
+device_card_number: {resourceId: "device_number"}
+# ----------------- 付款码 -------------------
+barcode: {resourceId: "image_barcode"}
+big_barcode: {resourceId: "image_big_barcode"}
+qrcode: {resourceId: "image_qrcode"}
+big_qrcode: {resourceId: "image_big_qrcode"}
+change_card: {resourceId: "rela_pay_style"}
+turn_on: {resourceId: "btn_pause_use"}
+# ----------------- 扫一扫 -------------------
+flashlight: {resourceId: "tvFlashLight"}
+photo_album: {resourceId: "tvPhotoAlbum"}
+confirm_payment: {text: "确认付款"}
+done: {text: "完成"}
+# ----------------- 删除银行卡 -------------------
+delete_bank_card_process: {resourceId: "title_template"}

@@ -1,0 +1,49 @@
+# ----------------- 欢迎页 -------------------
+activate_new_card: {resourceId: "mOpenNewCardBtn"}
+add_transit_card: {resourceId: "add_card"}
+# ----------------- 添加公交卡 -------------------
+search_for_city_or_transit_card: {resourceId: "rl_search"}
+search_box: {resourceId: "cp_search_box"}
+card_name: {resourceId: "card_name"}
+open: {resourceId: "open"}
+mobile_number: {resourceId: "et_mobile"}
+confirm: {resourceId: "iv_confirm"}
+process_title: {resourceId: "title"}
+finish: {resourceId: "tv_finish"}
+alipay: {resourceId: "deposit_title"}
+# ----------------- 充值 -------------------
+cancel: {resourceId: "cancel_select"}
+recharge_amount: {resourceId: "topup_normal"}
+pay: {resourceId: "pay"}
+recharge_channel: {resourceId: "deposit_title"}
+recharge_button: {resourceId: "deposit_recharge_button"}
+# ----------------- 卡片详情 -------------------
+recharge: {resourceId: "recharge"}
+card_info: {text: "卡片信息", resourceId: "service_name"}
+transaction_record: {text: "交易记录", resourceId: "service_name"}
+move_transit_card: {text: "迁移公交卡", resourceId: "service_name"}
+swipe_card: {text: "刷卡", resourceId: "service_name"}
+ride_discount: {right: [{text: "乘车优惠", resourceId: "tv_title"}, {resourceId: "tv_content"}]}
+scope_of_application: {right: [{text: "适用范围", resourceId: "tv_title"}, {resourceId: "tv_content"}]}
+supported_cities: {textContains: "查看支持的城市"}
+done: {resourceId: "action_next"}
+# ----------------- 迁出公交卡 -------------------
+start_migrate: {resourceId: "start_migrate"}
+activate_card_mobile_number: {resourceId: "enter_mobile"}
+submit: {resourceId: "open"}
+shift_out_transit_card_process: {textContains: "正在迁出公交卡", resourceId: "title"}
+shift_out_finish: {resourceId: "next"}
+# ----------------- 迁入公交卡 -------------------
+transferable_transit_card: {down: [{textContains: "可迁入的公交卡"},{textContains: "京津冀"}]}
+shift_in_this_device: {resourceId: "btn_shift"}
+mobile_number2: {resourceId: "enter_mobile"}
+continue: {resourceId: "mNextTV", clickable: true}
+shift_in_transit_card_process: {textContains: "正在迁入", resourceId: "title"}
+shift_in_finish: {resourceId: "btn_finish"}
+# ----------------- 删除公交卡 -------------------
+continue_deleting_card: {resourceId: "ok_setting", enabled: true}
+delete_card_mobile_number: {resourceId: "edt_phone"}
+delete_reason_checkbox: {resourceId: "deposit_check_item"}
+other_reason_checkbox: {resourceId: "delete_check"}
+delete_card_reason: {resourceId: "etRefuseDetail"}
+delete_transit_card_process: {resourceId: "title_template"}

@@ -1,0 +1,161 @@
+# ----------通用数据------------
+common:
+  username: &username "冉勇"
+  identification_number: &identification_number "500235199812098118"
+  mobile_number: &mobile_number "13206269804"
+  wallet_password: &wallet_password "147258"
+  security_question: &security_question "最好的朋友的名字"
+  security_answer: &security_answer "张三峰"
+
+# ----------银联支付用例数据----------
+test_unionpay_0001:
+  # 借记卡
+  bank_card_number: "6230943760002540330"
+  mobile_number: *mobile_number
+  bank_password: "147258"
+  wallet_password: *wallet_password
+  security_question: *security_question
+  security_answer: *security_answer
+
+test_unionpay_0002:
+  # 信用卡
+  bank_card_number: "6214857812346223"
+  mobile_number: *mobile_number
+  expire_date: "1122"
+  cvn2: "123"
+
+test_unionpay_0004:
+  wallet_password: *wallet_password
+
+test_unionpay_0005:
+  payment_amount: "0.01"
+  wallet_password: *wallet_password
+
+# ----------零钱用例数据----------
+test_change_0001:
+  username: *username
+  identification_number: *identification_number
+  bank_card_number: "6230943760002540330"
+  mobile_number: *mobile_number
+  profession_group: "专业技术人员"
+  profession_item: "计算机/网络技术人员"
+  wallet_password: *wallet_password
+
+test_change_0002:
+  username: *username
+  identification_number: *identification_number
+  bank_card_number: "6230943760002540330"
+  mobile_number: *mobile_number
+  profession_group: "专业技术人员"
+  profession_item: "计算机/网络技术人员"
+  verify_code: "123456"
+  wallet_password: *wallet_password
+
+test_change_0003:
+  amount: "0.01"
+  wallet_password: *wallet_password
+
+test_change_0004:
+  amount: "0.01"
+  wallet_password: *wallet_password
+
+test_change_0006:
+  province: "重庆市"
+  city: "云阳县"
+  district: "南山区"
+  address: "前海路海景房"
+
+test_change_0007:
+  bank_card_number: "6230943760002540330"
+  mobile_number: *mobile_number
+
+test_change_0008:
+  bank_card_number: "6230943760002540330"
+  mobile_number: *mobile_number
+  verify_code: "123456"
+
+test_change_0010:
+  wallet_password: *wallet_password
+
+# ----------公交用例数据----------
+test_traffic_0001:
+  search_info: "京津冀"
+  transit_card_name: "京津冀互联互通卡"
+  recharge_amount: "0"
+  mobile_number: *mobile_number
+  recharge_channel: "支付宝"
+
+test_traffic_0002:
+  recharge_amount: "10"
+  recharge_channel: "OPPO Pay"
+  wallet_password: *wallet_password
+
+test_traffic_0004:
+  mobile_number: *mobile_number
+
+test_traffic_0005:
+  mobile_number: *mobile_number
+
+test_traffic_0006:
+  mobile_number: *mobile_number
+  delete_reason: "没啥理由哦！"
+
+# ----------门禁用例数据----------
+test_key_0003:
+  card_name: "自动化#WQ%$xss"
+
+test_key_0005:
+  delete_reason: "没啥理由哦！"
+
+# ----------eID用例数据----------
+test_eid_0001:
+  security_question: *security_question
+  security_answer: *security_answer
+  wallet_password: *wallet_password
+
+test_eid_0002:
+  wallet_password: *wallet_password
+
+test_eid_0004:
+  wallet_password: *wallet_password
+
+# ----------设置用例数据----------
+test_setting_0001:
+  username: *username
+  identification_number: *identification_number
+
+test_setting_0005:
+  wallet_password: *wallet_password
+  new_wallet_password: "141414"
+
+test_setting_0006:
+  bank_card_number: "6230943760002540330"
+  username: *username
+  identification_number: *identification_number
+  mobile_number: *mobile_number
+  new_wallet_password: "151515"
+
+test_setting_0007:
+  security_answer: *security_answer
+  new_wallet_password: *wallet_password
+
+test_setting_0008:
+  wallet_password: *wallet_password
+  new_security_question: "最好的朋友的名字"
+  new_security_answer: "张三丰"
+
+test_setting_0009:
+  entry_list: ["工具栏", "推广位", "精选专区", "新手帮助"]
+
+test_setting_0011:
+  wallet_password: *wallet_password
+
+# ----------三方服务用例数据----------
+test_third_party_0001:
+  webview_services: ["借钱", "信用卡申请", "理财", "OPPO信用卡", "还信用卡", "云缴费", "话费流量", "视频会员",
+                 "领手机卡", "火车票", "机票", "旅游", "OPPO Care", "旧机换钱", "摇钱树"]
+  quickapp_services: ["电影票", "打车出行", "快递查询"]
+  cocoin_recharge: "可币充值"
+
+test_third_party_0002:
+  webview_services: ["摇钱树", "缴费立减", "猜涨跌", "早起打卡", "领手机卡", "旧机换钱", "积分商城", "帮助与反馈", "在线客服"]

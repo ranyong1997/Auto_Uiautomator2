@@ -1,0 +1,13 @@
+# ----------------- 欢迎页 -------------------
+activate_now: {resourceId: "bt_add_eid"}
+common_problem: {resourceId: "tv_known_more"}
+# ----------------- 添加eID -------------------
+retry: {resourceId: "bt_next"}
+IDCard_recognition: {textContains: "贴近手机", resourceId: "tv_title_id_recognition"}
+face_recognition: {resourceId: "tv_title_face_recognition"}
+verify_identity_information: {textContains: "校验身份信息", resourceId: "tv_title_operation"}
+write_in_eID_card_process: {textContains: "正在生成", resourceId: "tv_title_operation"}
+finish: {resourceId: "tv_finish"}
+# ----------------- 查看eID -------------------
+eye_switch: {resourceId: "iv_info_switch"}
+eID_license: {resourceId: "rl_use_eid_card"}

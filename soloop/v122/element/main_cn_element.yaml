@@ -1,0 +1,22 @@
+my_tab: {resourceId: "mine_text"}
+features: {description: "设置"}
+video_watermark: {text: "视频水印"}
+uiedit: {text: "智能剪辑助手"}
+clear_cache: {text: "清理缓存"}
+help: {text: "帮助与反馈"}
+feedback: {text: "我要反馈"}
+contact_details: {text: "你的联系方式："}
+submit: {text: "提交"}
+back: {description: "转到上一层级"}
+user_agreement: {text: "用户协议"}
+privacy_policy: {text: "隐私政策"}
+version: {text: "版本号"}
+version_number: {resourceId: "title_summary"}
+account: {resourceId: "account_icon"}   # 用户头像
+user: {resourceId: "account_login_username_edit"}   # 账号
+u_p_login: {resourceId: "account_login_password_tv"}   # 账号密码登录
+password: {resourceId: "account_login_password_edit"}   # 密码
+login: {resourceId: "account_login_business_btn"}   # 登录
+sign_in: {resourceId: "btn_setting_account_sign"}   # 签到
+signed: {text: "已签"}  # 已签
+success_sign: {text: "今日已签到"}

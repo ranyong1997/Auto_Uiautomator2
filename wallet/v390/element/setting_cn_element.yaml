@@ -1,0 +1,60 @@
+# ----------------- 实名认证 -------------------
+real_name_verification: {textContains: "实名认证", resourceId: "tv_left"}
+verify_real_name_and_identification_number: {textContains: "姓名和身份证号码"}
+username: {xpath: "//android.view.View[4]//android.widget.EditText"}
+identification_number: {xpath: "//android.view.View[6]//android.widget.EditText"}
+next_step: {text: "下一步"}
+verification_code_box: {xpath: "//android.widget.EditText"}
+finish: {text: "完成"}
+# ----------------- 双击电源键打开刷卡 -------------------
+double_tap_power_switch: {right: [{textContains: "打开刷卡", resourceId: "tv_left_top"}, {resourceId: "csItem"}]}
+# ----------------- 自动切卡 -------------------
+auto_switch: {resourceId: "cl_auto_switch"}
+auto_switch_switch: {resourceId: "auto_switch_bt"}
+smart_switch: {resourceId: "ai_check"}
+loop_switch: {resourceId: "loop_check"}
+bus_card: {resourceId: "cl_bus"}
+door_card: {resourceId: "cl_door"}
+specified_card: {resourceId: "cniv_check"}
+done: {resourceId: "sure_btn"}
+dont_choose: {resourceId: "tv_dont_sel"}
+# ----------------- 一键修复 -------------------
+one_click_repair: {resourceId: "cl_one_click_repair"}
+start_repair: {resourceId: "button"}
+help_feedback: {resourceId: "tv_help_feedback"}
+loading: {resourceId: "tv_loading"}
+complete: {resourceId: "button"}
+# ----------------- 指纹支付 -------------------
+finger_pay_switch: {child: [{resourceId: "silPayPsw"}, {resourceId: "csItem"}]}
+# ----------------- 支付密码设置 -------------------
+password_setting: {textContains: "支付密码", resourceId: "tv_left"}
+change_password: {textContains: "更改"}
+forget_password: {textContains: "忘记"}
+reset_security: {textContains: "重置密保"}
+retrieve_through_id_info: {textContains: "通过身份信息找回"}
+retrieve_through_security: {textContains: "通过密保与手机号找回"}
+bank_card_number: {xpath: "//android.view.View[1]/*/*/android.widget.EditText"}
+username2: {xpath: "//android.view.View[2]/*/*/android.widget.EditText"}
+identification_number2: {xpath: "//android.view.View[3]/*/*/android.widget.EditText"}
+mobile_number: {xpath: "//android.view.View[4]/*/*/android.widget.EditText"}
+next: {resourceId: "action_next"}
+security_question: {textContains: "请选择"}
+sepcific_question: {textContains: "我的"}
+security_answer: {xpath: "//android.widget.EditText"}
+# ----------------- 服务管理 -------------------
+service_management: {textContains: "服务管理", resourceId: "tv_left"}
+function_item: {textContains: "功能项", resourceId: "tv_left"}
+personalized_recommendation: {textContains: "个性化推荐", resourceId: "tv_left"}
+system_authority: {textContains: "系统权限", resourceId: "tv_left"}
+service_agreement: {textContains: "服务协议", resourceId: "tv_left"}
+privacy_statement: {textContains: "隐私声明", resourceId: "tv_left"}
+personalized_recommendation_switch: {resourceId: "csItem"}
+specific_function_item_switch: {right: [{resourceId: "tv_left_top"}, {resourceId: "csItem"}]}
+open_all: {resourceId: "rela_switch"}
+# ----------------- 注销钱包支付账户 -------------------
+cancel_account: {textContains: "注销钱包支付账户"}
+unbind: {text: "解绑"}
+examine: {text: "查看"}
+confirm_logout: {text: "确认注销"}
+# ----------------- 版本号 -------------------
+version: {resourceId: "tv_version_code"}

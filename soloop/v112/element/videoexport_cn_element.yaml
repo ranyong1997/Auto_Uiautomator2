@@ -1,0 +1,128 @@
+agree: {text: "同意"}
+enter_main_page: {text: "进入首页"}
+back: {resourceId: "preview_back"}  #返回上一层
+go_back: {xpath: "//android.widget.ImageButton"}
+back2: {resourceId: "action_bar_back"}
+fast_film: {text: "快速成片"}
+free_edit: {text: "自由剪辑"}
+credits: {resourceId: "edit_timeline_cover_text"} # 片尾
+save_draft: {text: "存为草稿", resourceId: "btn_postive"}  # 存为草稿
+exit_directly: {text: "直接退出", resourceId: "btn_negative"}  # 直接退出
+next: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/sort_layout']/android.widget.FrameLayout[1]"}  # 下一步
+picture: {text: "图片"}
+select_image1: {index: "1", resourceId: "rv_timeline_item"}  # 选择图片同一日期第一张
+select_image2: {index: "2", resourceId: "rv_timeline_item"}  # 选择图片同一日期第二张
+preview_material: {resourceId: "preview"}   # 素材预览
+checkbox: {resourceId: "preview_select_checkbox"}   # 勾选复选框
+video: {text: "视频"}
+play: {resourceId: "center_play_image"}
+first_video: {index: "1", resourceId: "rv_timeline_item"}
+select_video: {index: "2", resourceId: "rv_timeline_item"}
+fork: {resourceId: "tips_close"}
+choose: {text: "选择", resourceId: "replace_edit_generate"}
+fragment: {text: "片段", resourceId: "ai_editor_extract_tx"}
+first_paragraph: {text: "第 1 段", resourceId: "ai_extract_index"}
+second: {index: "1", resourceId: "rv_timeline_item"}
+hook_fragment: {index: "2", resourceId: "editor_extract_done"}
+music: {text: "音乐"}
+music_library: {text: "音乐库", resourceId: "musiclib_text"}
+add_music: {text: "添加音乐", resourceId: "btn_manual_music"}
+music_cross: {index: "1", resourceId: "music_cancel"}
+song: {resourceId: "music_download_img"}  # 下载音乐
+use_song: {text: "使用", resourceId: "music_use_btn"}
+collect_song: {resourceId: "music_collect"}  # 收藏音乐
+narrator: {text: "旁白", resourceId: "narrator_text"}
+volume: {text: "音量"}
+hook_volume: {resourceId: "editor_volume_done"}
+delect_narrator: {text: "删除"}
+copy_music: {text: "复制", resourceId: "music_copy_text"}
+filter: {text: "滤镜"}
+filter_cross: {index: "0", resourceId: "editor_ai_editor_filter_cancel"}
+filter_first: {text: "初见"}
+filter_second: {text: "加州之旅"}
+filter1: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[1]"}
+filter2: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[2]"}
+filter3: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[3]"}
+filter4: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[4]"}
+filter5: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[5]"}
+filter6: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[6]"}
+filter7: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[7]"}
+filter8: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/filter_list']/android.widget.RelativeLayout[8]"}
+hook_filter: {resourceId: "editor_ai_editor_filter_done"}
+
+sd: {resourceId: "action_bar_adjust"}
+sd1: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/editor_video_adjust_list']/android.widget.RelativeLayout[2]"} # 点击比例(1:1)
+sd2: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/editor_video_adjust_list']/android.widget.RelativeLayout[3]"} # 点击比例(4:3)
+sd3: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/editor_video_adjust_list']/android.widget.RelativeLayout[4]"} # 点击比例(3:4)
+sd4: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/editor_video_adjust_list']/android.widget.RelativeLayout[5]"} # 点击比例(16:9)
+sd5: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/editor_video_adjust_list']/android.widget.RelativeLayout[6]"} # 点击比例(9:16)
+
+generate: {text: "生成"}
+bar_done: {text: "完成"}
+cut_up: {resourceId: "edit_montage_cut_tx"}   # 分割
+primitive: {resourceId: "mute_icon"}   # 原生
+delete: {resourceId: "edit_montage_delete_tx"}  # 删除
+undo: {resourceId: "undo_view"}    # 撤回
+sort: {resourceId: "edit_montage_sort_tx"}   # 排序
+hook_sort: {resourceId: "editor_id_action_done"}
+cartoon: {resourceId: "edit_montage_cartoon_tx"}   # 动画
+cartoon_first: {text: "动感放大"}
+cartoon1: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/video_cartoon_list']/android.widget.RelativeLayout[2]"}
+cartoon2: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/video_cartoon_list']/android.widget.RelativeLayout[3]"}
+cartoon3: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/video_cartoon_list']/android.widget.RelativeLayout[4]"}
+cartoon4: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/video_cartoon_list']/android.widget.RelativeLayout[5]"}
+cartoon5: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/video_cartoon_list']/android.widget.RelativeLayout[6]"}
+cartoon6: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/video_cartoon_list']/android.widget.RelativeLayout[7]"}
+hook_cartoon: {resourceId: "editor_cartoon_done"}
+speed: {resourceId: "edit_montage_speed_tx"}  # 变速
+hook_speed: {index: "2", resourceId: "editor_trim_done"}
+reverse: {resourceId: "montage_reverse"}   # 倒放
+rotation: {resourceId: "montage_rotation"} # 旋转
+play_and_pause: {resourceId: "btn_play_and_pause"}    # 视频导入后播放和暂停
+preview: {text: "贴纸", resourceId: "id_editor_preview_sticker"} # 贴纸
+add_preview: {text: "添加贴纸", resourceId: "btn_manual_sticker"}   # 添加贴纸
+preview_first: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/sticker_list']/android.widget.RelativeLayout[1]"}
+hook_preview: {resourceId: "icon_sticker_library_down"}
+subtitle: {text: "字幕", resourceId: "id_editor_preview_caption"}
+subtitle_style1: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/caption_style_list']/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.ImageView[1]"}
+subtitle_style2: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/caption_style_list']/android.widget.FrameLayout[3]/android.widget.FrameLayout[1]/android.widget.ImageView[1]"}
+subtitle_style3: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/caption_style_list']/android.widget.FrameLayout[4]/android.widget.FrameLayout[1]/android.widget.ImageView[1]"}
+add_subtitle: {text: "添加字幕", resourceId: "btn_manual_caption"}
+input_subtitle: {text: "请输入字幕", resourceId: "input_edit_text"}
+hood_subtitle: {index: "1", resourceId: "input_done_button"}
+ai: {text: "AI 字幕", resourceId: "btn_ai_caption"} # AI字幕
+hook_ai: {resourceId: "ai_done_button_dialog"}
+copy: {resourceId: "sticker_sub_menu_copy_img"}  # 复制
+delete_text: {resourceId: "caption_sub_menu_delete"}  # 删除
+delete_preview: {resourceId: "sticker_sub_menu_delete_img"}
+fx: {text: "特效", resourceId: "id_editor_preview_fx"}  # 特效
+add_fx: {text: "添加特效", resourceId: "btn_manual_fx"}
+add: {resourceId: "fx_sub_menu_add_img"}
+first_fx: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/fx_list']/android.widget.RelativeLayout[1]/android.view.View[1]"}
+second_fx: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/fx_list']/android.widget.RelativeLayout[2]/android.view.View[1]"}
+dream_fx: {text: "梦幻"}
+first_dream: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/fx_list']/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}
+dynamic_fx: {text: "动感"}
+first_dynamic: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/fx_list']/android.widget.RelativeLayout[1]/android.view.View[1]"}
+copy_fx: {text: "复制", resourceId: "fx_sub_menu_copy_tv"}
+delete_fx: {text: "删除"}
+hook_fx: {resourceId: "icon_fx_library_down"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

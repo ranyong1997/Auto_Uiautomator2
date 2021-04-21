@@ -1,0 +1,17 @@
+uiautomator2
+imageio~=2.8.0
+imageio-ffmpeg~=0.4.2
+websocket_client~=0.57.0
+weditor
+pytest
+pyyaml
+allure-pytest
+pytest-ordering
+pytest-check
+pytest-dependency
+pytest-rerunfailures
+pytest-repeat
+gitpython
+opencv-contrib-python<=3.4.2.17
+JPype1==1.0.2
+

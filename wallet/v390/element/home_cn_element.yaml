@@ -1,0 +1,31 @@
+# ----------------- Tab -------------------
+home_tab: {text: "首页", resourceId: "tab_content_tv"}
+# ----------------- 工具栏 -------------------
+oppo_pay: {text: "OPPO Pay", resourceId: "menu_text"}
+payment_code: {resourceId: "ivMenuItem"}
+scan_it: {right: [{resourceId: "ivMenuItem"}, {resourceId: "ivMenuItem"}]}
+card_package: {resourceId: "cnivCardTwo"}
+go_by_bus: {text: "去乘车", resourceId: "menu_text"}
+go_open_door: {text: "去开门", resourceId: "menu_text"}
+# ----------------- 卡包 -------------------
+add: {resourceId: "ivMenuItem"}
+add_key: {textContains: "门禁卡", resourceId: "popup_list_window_item_title"}
+add_bank_card: {textContains: "银行卡", resourceId: "popup_list_window_item_title"}
+add_transit_card: {textContains: "公交卡", resourceId: "popup_list_window_item_title"}
+add_eID: {textContains: "eID", resourceId: "popup_list_window_item_title"}
+manager_other_device_card: {resourceId: "relativeLayout"}
+write_in_of_blank_card: {textContains: "录入", resourceId: "tvDescriptionRight"}
+first_bank_card: {down:[{textContains: "银行卡", resourceId: "tvTitle"}, {resourceId: "ivDetailImg"}]}
+migrate_in_this_device: {resourceId: "nbtnShiftIn"}
+recharge: {resourceId: "tvBottomBtn"}
+eID: {textContains: "电子身份", resourceId: "tvTitle"}
+eID_image: {down:[{textContains: "电子身份", resourceId: "tvTitle"}, {resourceId: "ivDetailImg"}]}
+Cards_for_other_devices: {textContains:"其他设备的卡片",resourceId: "tvShiftIn"}
+# ----------------- 浮标 -------------------
+
+# ----------------- 生活服务 -------------------
+all_service: {text: "全部", resourceId: "service_name"}
+# ----------------- 其他 -------------------
+open_more_services: {resourceId: "tv_service_entrance"}
+# ----------------- 检查 -------------------
+card_package_page: {text: "卡包"}

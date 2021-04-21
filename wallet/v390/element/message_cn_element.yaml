@@ -1,0 +1,9 @@
+# ----------------- 消息分类 -------------------
+system_message: {textContains: "系统", resourceId: "tv_message"}
+activity_msg: {textContains: "活动", resourceId: "tv_message"}
+bill_message: {textContains: "动账", resourceId: "tv_message"}
+bank_card: {textContains: "银行卡", resourceId: "tv_message"}
+transit_card: {textContains: "公交卡", resourceId: "tv_message"}
+door_card: {textContains: "门禁卡", resourceId: "tv_message"}
+# ----------------- 消息详情 -------------------
+message_main_title: {resourceId: "tv_context_title"}

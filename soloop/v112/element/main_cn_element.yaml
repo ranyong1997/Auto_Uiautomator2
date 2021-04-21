@@ -1,0 +1,17 @@
+my_tab: {resourceId: "features"}   # 设置
+resolution: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[2]"}  # 导出分辨率
+720P: {text: "720P", resourceId: "pref_title"}
+video_watermark: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[3]"}    # 视频水印
+ui_edit: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[4]"}    # 智能剪辑助手
+clear_cache: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[5]"}    # 清理缓存
+help: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[8]"}    # 帮助与反馈
+back: {description: "转到上一层级"}
+user_agreement: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[9]"}    # 用户协议
+privacy_policy: {xpath: "//*[@resource-id='com.coloros.videoeditor:id/recycler_view']/android.widget.RelativeLayout[10]"} # 隐私政策
+account: {resourceId: "account_name"}   # 账号
+u_p_login: {resourceId: "account_login_password_tv"}   # 账号密码登录
+password: {resourceId: "account_login_password_edit"}   # 密码
+login: {resourceId: "account_login_business_btn"}   # 登录
+sign_in: {resourceId: "btn_setting_account_sign"}   # 签到
+signed: {text: "已签"}  # 已签
+success_sign: {text: "今日已签到"}
