@@ -19,7 +19,7 @@
 4. 安装[allure2](https://github.com/allure-framework/allure2/releases) ，点击链接内的Links---Download，解压到任意目录，并配置好环境变量
 5. 安装[git](https://git-scm.com/downloads) ，完成后鼠标右键打开git bash，输入：
 6. 找一个目录，打开git bash，输入：  
-`git clone http://alm.adc.com/ittools/CompTest/_git/UIAutoTest`
+`git clone https://gitee.com/ran_yong/auto_uiautomator2.git`
 7. 打开Pycharm，打开上一步拉取下来的UIAutoTest文件夹，导入工程，点击settings---Project---Project Interpretor---add...---New environment---Location中在当前工程名后确认是否有/venv，没有的话手动输入，基本编译器选择python3的安装路径，确认即可
 8. Pycharm需要先配置pip的repositories，推荐https://pypi.tuna.tsinghua.edu.cn/simple/ ，Pycharm的Terminal中，输入：  
 `pip3 install -r requirements.txt`  
@@ -297,18 +297,6 @@ dictionary = {
 “foo” : 1,
 “long_name”: 2,
 }
-```
-### 解释器和文件编码
-File---Settings---Editor---File and Code Templetes 找到Python Script, 复制粘贴以下内容，保存
-```python
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-
-"""
-Author: 改成自己的工号
-Date: ${DATE}
-File: ${NAME}.py
-"""
 ```
 ### 组装文件路径
 使用os.path.join组装文件路径，本工程使用相对路径，相对于run.py所在的路径  
